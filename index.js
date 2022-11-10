@@ -81,3 +81,17 @@ async function run(){
 
 run().catch(err => console.error(err));
 
+            
+        
+
+app.get ('/', (req, res) => {
+    res.send('review server running')
+})
+
+app.listen(port, () =>{
+    console.log(`review server running on ${port}`)
+})
+
+
+
+
